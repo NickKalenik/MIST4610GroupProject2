@@ -47,9 +47,11 @@ For our first question, we had to create a calculated field utilizing the "Vehic
 - STARTING FROM PARKED
 - STOPPED IN TRAFFIC LANE
 - UNKNOWN
+  
 Because we wanted to analyze the difference in crash severity between a car moving at a constant speed and a car moving at a non-constant speed, we had to condense all of these domains into two categories in a new calculated field named "Constant or Non-Constant Speed?" The two categories included:
 - CONSTANT SPEED
 - NON-CONSTANT SPEED
+  
 The calculation to arrive at this result is as follows:
 
 IF [Vehicle Movement] = 'UNKNOWN' OR [Vehicle Movement] = 'N/A' THEN NULL 
@@ -73,9 +75,11 @@ For our second question, we had to create a similar calculated field from the "D
 - NONE DETECTED
 - OTHER
 - UNKNOWN
+  
 Since we wanted to compare impaired car accidents versus non-impaired car accidents, we created a calculated field named "Impaired or Non-Impaired" with two members that included:
 - NO IMPAIRMENT
-- IMPAIRED 
+- IMPAIRED
+  
 The calculation to arrive at this result is as follows:
 
 IF [Driver Substance Abuse] = 'UNKNOWN' OR [Driver Substance Abuse] = 'N/A' THEN NULL
