@@ -25,7 +25,7 @@ We chose this first question because it enables us to visualize the relationship
 
 We chose this second question because it enables us to visualize the geographical area of car crashes in Maryland and whether the car crash involved an impaired driver. Through this we are able to recognize patterns of where car crashes happen most or least and what locations involved high or low levels of impaired drivers involved in a crash. This visualization of data gives entities like police departments and emergency health services greater understanding to what geographical areas to focus their services and where their base locations should be held. Further, police departments are able to know to have greater enforcement of the use of substances for drivers in areas of greater car crashes involving impaired drivers. All in all, this question allows for more informed decision-making for police departments and emergency health services which lead to greater well-being of those in Maryland.
 ## Data Set Manipulations
-For our first question, we had to create a calculated field utilizing the "Vehicle Movement" field. This field had 23 domains, which included: 
+For our FIRST question, we had to create a calculated field utilizing the "Vehicle Movement" field. This field had 23 domains, which included: 
 - ACCELERATING
 - BACKING
 - CHANGING LANES
@@ -64,7 +64,7 @@ END
 
 When using this calculated field in our model, we filtered out domains such as "UNKNOWN", "N/A", "OTHER", and any null values to make our model more accurate.
 
-For our second question, we had to create a similar calculated field from the "Driver Substance Abuse" field. This field had 12 members, which included:
+For our SECOND question, we had to create a similar calculated field from the "Driver Substance Abuse" field. This field had 12 members, which included:
 - ALCOHOL CONTRIBUTED
 - ALCOHOL PRESENT
 - COMBINATION CONTRIBUTED
