@@ -109,7 +109,7 @@ A bar graph of the count of accidents within each category helps us to visualize
 As stated previously, a more zoomed in observation of this data map allows for crash data visualization along specific roads. In this particular section of the map, it is clear to see that accidents are happening with the greatest frequency on what appears to be main roads, which concentrate around a particular center of activity. This visualization lends to a city center with a highway loop around the outside. Crashes are interspersed along side roads and throughout the loop, but this visualization allows for these "highways" to be indentified as areas of high accident rates. Further, it can be seen that impaired accidents occur along these high traffic roads and in the center of activity at a higher rate than they occur when crashes are recorded off of these clearly identificable "highways".
 
 # Tableau Packaged Workbook
-The tableau workbook which includes the group work and my personal Honors Option Work is included within the ELC Dropbox.
+The tableau workbook is included within the ELC Dropbox.
 
 
 
